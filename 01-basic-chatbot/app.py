@@ -40,9 +40,13 @@ if user_text:
 
     response = client.models.generate_content(
         model="gemini-2.5-flash-lite",
+        config=genai.types.GenerateContentConfig(
+            system_instruction="You are a helpful assistant. Keep answers clear and concise, no more than a short paragraph unless asked for detail."
+        ),
         contents=conversation
     )
     reply = response.text
+   # reply = response.text
 
     st.session_state.messages.append({"role": "assistant", "content": reply})
     with st.chat_message("assistant"):
