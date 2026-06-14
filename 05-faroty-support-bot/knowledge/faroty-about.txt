@@ -1,0 +1,455 @@
+# Faroty Support Knowledge Base
+
+Source material for the Faroty customer support chatbot. This document is the knowledge the bot draws on when answering users. It is written so the bot can speak as Faroty to customers.
+
+Last compiled from: faroty.com website pages, the Faroty Crowdfunding platform (crowdfunding.faroty.com), the Faroty Terms of Use (last updated 23 July 2025), operator-confirmed operational details, and public press coverage.
+
+A note on accuracy: sections marked **[FAROTY TO CONFIRM]** still need verification before the bot answers questions about them. The bot must never invent these values. Where a customer asks about an unconfirmed detail, the bot offers to connect them to a human agent.
+
+---
+
+## 1. About Faroty
+
+Faroty is a Cameroonian fintech that provides simple, secure digital tools for raising funds, managing groups and associations, and organizing events. It serves individuals, communities, associations, and businesses.
+
+Brand promise: "Enjoy your world." The company frames itself as a financial ecosystem built on solidarity, sharing, and mutual aid for community development.
+
+Mission: to simplify everyday financial management through services inspired by users' own environment, while benefiting the communities around them.
+
+Vision: a world where every community, organization, project, and citizen can access simple, fluid, and inclusive financial tools. Faroty aims to lower barriers to financial management for small businesses, associations, community projects, and individuals; democratize financial technology for novice and experienced users alike; foster financial autonomy; support the digital transition of associative, commercial, and fiscal management; and build a supportive ecosystem for NGOs, social enterprises, SMEs, and individuals.
+
+The crowdfunding arm positions itself as the platform connecting African project creators with a supportive community, built around local realities in Africa, a human approach centered on trust and solidarity, and reduced fees.
+
+Founded: 2018. Faroty has operated since 2018 and presents itself as a benchmark in African fintech. The crowdfunding platform launched in November 2018. The founder first conceived the idea around 2013.
+
+Operating area: Cameroon. Services currently operate in Cameroon only, with a broader ambition to serve communities across Africa.
+
+Technology framing: the company describes its platforms as built on internet technologies, blockchain, and artificial intelligence to deliver robust, secure, and transparent financial management.
+
+Platform version: the crowdfunding platform currently runs as Alpha 2.3.
+
+---
+
+## 2. Contact and Support Channels
+
+Customer support phone numbers:
+- +237 679 910 021
+- +237 654 143 860
+
+Email (general and support): contact@faroty.com
+
+Main website: www.faroty.com
+
+Crowdfunding platform: crowdfunding.faroty.com
+
+Help Center and FAQ: faroty.com/helpdesk.php
+
+News: faroty.com/news.php
+
+Terms of Service: faroty.com/terms.php
+
+Privacy Policy: faroty.com/privacy.php
+
+Legal: faroty.com/company.php
+
+Location: Douala, Littoral, Cameroon.
+
+Currency used across the platform: XAF (FCFA).
+
+Mobile app (ASSO+ / groups): Android on Google Play at https://play.google.com/store/apps/details?id=com.faroty.groups&pcampaignid=web_share
+
+**[FAROTY TO CONFIRM]**: current iOS app availability and store link.
+
+Support availability: ASSO+ support is advertised as available 24/7. **[FAROTY TO CONFIRM]**: confirmed phone and email support hours and response times across all services.
+
+Account and profile deletion requests: handled by email to Faroty customer service.
+
+---
+
+## 3. Products and Services
+
+Faroty's offering is organized into three main pillars (Crowdfunding, ASSO+, Business) plus standalone business apps (Event+, RemindMe). Earlier-generation product names such as "My Collect" and "ePass" have been consolidated into the current lineup.
+
+Important naming note for the bot: the word "Business" is used in two different ways. On the main site, "Business" is the B2B pillar described in section 3.3 (API, payments, collections, management tools). On the crowdfunding platform, "Business" is a campaign category for startups and professional projects, with its own fee tier (see section 6). Do not confuse the two.
+
+### 3.1 Crowdfunding
+
+The online fundraising and collection tool for causes and projects. Anyone can launch an online fundraiser for social, humanitarian, or artistic projects, events, or personal goals.
+
+How it works, four steps:
+1. Create your campaign. In a few clicks, describe your project, set your goal, and offer rewards.
+2. Share. Mobilize your community and reach new backers.
+3. Collect. Receive funds and bring your project to life.
+4. Withdraw. Access your funds at any time, even without reaching your goal.
+
+Why creators choose Faroty Crowdfunding:
+- Simplicity: an intuitive interface to create and manage campaigns.
+- Flexibility: withdraw funds at any time, with no success condition (you keep what you raise).
+- Transparency: real-time campaign tracking and clear fees.
+- Security: secure payments and data protection.
+- Community: an engaged community ready to support local projects.
+
+What you can fund (project types):
+- Solidarity: humanitarian aid, associations, mutual aid.
+- Community: local projects, neighborhood initiatives, development.
+- Entrepreneurship: startups, businesses, innovations. (Billed under the "Business" fee category.)
+- Events: weddings, birthdays, travel, celebrations.
+
+What sets Faroty apart:
+- A local platform that understands the specific realities and needs of Africa.
+- A human approach that prioritizes trust and solidarity.
+- Reduced, competitive fees to maximize what creators collect.
+
+### 3.2 ASSO+
+
+The financial manager for groups and associations. Advertised as free.
+
+What it provides in real time:
+- Contribution and payment reports.
+- Various meeting minutes.
+- The group's cycle balance sheet.
+- The status of each member.
+
+Support and partnership benefits bundled with ASSO+:
+- Training for association members, specifically officers (President, Treasurer, Secretary).
+- Video and PDF tutorials to help all members get started.
+- 24/7 support for any group member.
+- Ongoing invitations to training seminars as new features are released.
+- Event sponsorship: groups using ASSO+ can have their events sponsored and promoted by Faroty.
+- Event invitations: groups become privileged guests at events organized by Faroty or its partners.
+
+### 3.3 Business (B2B pillar)
+
+Tools and infrastructure (API, payments, collections) for businesses and projects. Personalized services for routine and occasional tasks, including:
+- Online ticket purchase and booking.
+- Online event management.
+- Sales, treasury, stock, and production management.
+- Accounting, tax, financial, and payroll management.
+
+Custom applications: Faroty's team builds turnkey applications on request. Customers contact the team to specify their needs.
+
+**[FAROTY TO CONFIRM]**: pricing for the B2B Business pillar and custom application builds. (The fee tiers in section 6 apply to crowdfunding campaigns, not to the B2B pillar.)
+
+### 3.4 Event+
+
+An events product covering events, voting, and messaging. Manage tickets, votes, SMS communications, and personalized emails for an event.
+
+### 3.5 RemindMe
+
+A reminders and notifications product so users never miss an event in their personal life or business.
+
+### 3.6 Payment methods
+
+Faroty processes payments through authorized partners, with encrypted communications and secured transactions.
+- Mobile Money: MTN Mobile Money (MoMo) and Orange Money.
+- Bank cards: Visa and Mastercard.
+- PayPal.
+
+Geographic scope: Faroty services operate in Cameroon only. Currency is XAF (FCFA).
+
+---
+
+## 4. Getting Started and Account Rules
+
+### 4.1 Eligibility and registration
+
+To use Faroty services, a user must create an account on the website or one of the mobile/web apps. Requirements:
+- Be at least 18 years old.
+- Hold a valid identification document issued by their country (national ID card, passport, residence permit, or similar).
+- Provide accurate, complete, and up-to-date information at registration.
+
+Account rules:
+- Only one account is permitted per natural person or legal entity.
+- By registering, the user accepts Faroty's Terms of Use.
+
+### 4.2 Profile
+
+A profile is the user's personal space, accessible only with credentials. From it, users access services and can view and modify their personal data. Users can access, modify, or request deletion of their personal data at any time through their personal space or by contacting support.
+
+### 4.3 User types (definitions)
+
+- **User**: a registered natural or legal person with a known identity. Covers both organizers and participants.
+- **Organizer**: a user who creates a money pot, group, or project.
+- **Participant**: a user who contributes to a money pot.
+- **Visitor**: anyone browsing the site without being registered, or before registering.
+
+---
+
+## 5. How-To Guides (step by step)
+
+### 5.1 Create a crowdfunding campaign
+1. Go to crowdfunding.faroty.com (or use the app) and log in.
+2. Describe your project, set your goal, and offer rewards.
+3. Share it across your social networks and mobilize your community.
+4. Post regular updates on the campaign page to keep backers engaged.
+5. Collected funds accumulate in your temporary Faroty account.
+6. Withdraw your funds at any time, even before reaching your goal.
+
+### 5.2 Contribute to a campaign
+1. Explore the platform and choose a project.
+2. Contribute in cash through a payment method, or in kind.
+3. Share the project so more people can support it.
+
+### 5.3 Set up a group on ASSO+
+1. Register or log in.
+2. Create your group or association.
+3. Add members and configure contributions.
+4. Track contribution and payment reports, minutes, the balance sheet, and member status in real time.
+5. Officers can request training; all members can use the video and PDF tutorials.
+
+### 5.4 Withdraw collected funds
+Funds collected through crowdfunding are held in a temporary Faroty account and can be withdrawn at any time, with no requirement to reach the campaign goal.
+- Withdrawal methods: MTN Mobile Money and Orange Money.
+- Processing time: instantaneous.
+- Maximum per withdrawal: 500,000 XAF in one transaction. Larger amounts must be split into multiple withdrawals.
+- Identity verification: required before withdrawal.
+- Withdrawal fees: none. There is no charge deducted at withdrawal. (Platform commission is taken on collected donations; see section 6.)
+
+### 5.5 How to succeed with your campaign
+A complete guide for creators, organized in four steps plus four guiding pillars.
+
+Step 1, prepare and plan:
+- Define your project: what is your goal, what problem do you solve, what impact do you seek.
+- Create attractive rewards: offer perks tied to contribution amounts that make people want to give.
+- Mobilize your network: talk about your project before launching.
+
+Step 2, build your campaign page:
+- Tell an authentic story: share your passion, your motivations, and why the project matters to you.
+- Use quality visuals: professional photos and videos build trust.
+- Be transparent: present your team, your experience, and your budget.
+- Show the impact: explain what each contribution will achieve.
+
+Step 3, run and communicate:
+- Set a SMART goal: Specific, Measurable, Achievable, Realistic, Time-bound.
+- Communicate regularly: share updates, respond to comments, thank people.
+- Use social media: create engaging content to keep interest alive.
+- Organize events: live sessions, webinars, and meetings to connect with backers.
+
+Step 4, grow your reach:
+- Start with close ones: they will be your first ambassadors.
+- Collaborate with influencers: reach new communities.
+- Join communities: forums, Facebook groups, and specialized discussions.
+
+The four pillars of success:
+- Authenticity: people support people, not just projects.
+- Perseverance: crowdfunding takes time and energy.
+- Creativity: stand out with an original approach.
+- Gratitude: thank every contributor warmly.
+
+---
+
+## 6. Crowdfunding Fees and Pricing
+
+Faroty Crowdfunding charges a commission only on donations actually collected. There are no upfront or fixed fees. The rate depends on the campaign category and on whether the payment is local (CEMAC zone) or international. International rates include currency conversion (FX) and banking fees.
+
+| Campaign category | Description | Local (CEMAC) | International |
+|---|---|---|---|
+| Business | Startups and professional projects | 10% | 15% |
+| Solidarity (most popular) | Associations and social projects | 5% | 10% |
+| Community | Local and collective initiatives | 5% | 10% |
+| Events | Weddings, birthdays, celebrations | 10% | 15% |
+
+All rates include: secure payments protected by recognized standards, an intuitive platform to create and manage campaigns, and real-time tracking with detailed fundraising statistics.
+
+Reminder: these fee tiers apply to crowdfunding campaigns only. The B2B Business pillar (section 3.3) is priced separately and is not yet confirmed.
+
+---
+
+## 7. Track Record (social proof for customer answers)
+
+Stated achievements the bot can reference to build trust:
+- More than 1,500,000 FCFA raised for victim support after the Ngouache disaster in Bafoussam, October 2019.
+- Health solidarity: fundraisers organized for people with medical conditions.
+- More than 25,000,000 FCFA raised for local projects across agriculture, crafts, and livestock, with over 100 projects funded.
+
+These figures are Faroty's own stated results and can be shared as such.
+
+---
+
+## 8. Policies and Terms (from the Terms of Use, last updated 23 July 2025)
+
+### 8.1 Role of Faroty
+Faroty acts as an intermediary between users who want to create a group, a money pot, or contribute to money pots for charitable or private purposes. It provides a secure online service and simplifies the collection, management, and processing of payments via Mobile Money, bank cards, and PayPal.
+
+### 8.2 Prohibited activities and content
+To keep the service secure, open, and ethical, the following content or money pot objectives are strictly prohibited. The list includes, but is not limited to:
+- Any content or project contrary to public order, current laws, or morality.
+- Insulting, defamatory, sexist, revisionist, or threatening language, or language inciting harassment.
+- Attacks on human dignity or on the physical or moral integrity of any person.
+- Apology for terrorism, crimes against humanity, or incitement to criminal acts.
+- Projects financing terrorism, human trafficking, corruption, or criminal activities.
+- Campaigns promoting hate, sexual or gender-based violence, or child pornography.
+- Projects related to weapons, ammunition, drugs, tobacco, CBD, or regulated substances.
+- Violations of copyright, image rights, intellectual property, or the right to privacy.
+- Erotic, sexual, or pornographic content, or content inciting prostitution or escorting.
+- Gambling, betting, pyramid schemes, or unregulated crypto-assets.
+- Election campaigns, disinformation sites, or any activity Faroty deems unacceptable.
+- Financing of fines or penalties, except for legal fees with supporting documentation.
+- Any other activity likely to harm the reputation, security, or liability of Faroty or its users.
+
+### 8.3 Posting content
+Each user may publish information related to their money pot. Faroty does not pay users for publishing content; posting is the user's own initiative. The user guarantees they hold the necessary rights to publish the content, including copyright and image rights.
+
+Faroty does not carry out systematic prior review. The user acknowledges that Faroty is not responsible for published content, does not guarantee its accuracy, quality, or relevance, and disclaims liability for inappropriate or illegal content. A reporting system is available so users can flag abuse.
+
+### 8.4 Reporting illegal or inappropriate content
+Any user or visitor may report illegal or inappropriate content. Reports must be justified. Once content is reported regularly, Faroty will remove it if it is manifestly illegal and will inform the authorities where necessary.
+
+Faroty may suspend or delete without notice:
+- Any content contrary to the terms or current laws.
+- Discriminatory, hateful, defamatory, or violent language.
+- Content reported or subject to judicial decisions.
+- Content harmful to Faroty's image or reputation.
+- Unauthorized commercial activities.
+
+Faroty is not liable for the consequences of removing such content.
+
+### 8.5 Deleting content
+A user may delete content they published, where technically possible. Faroty undertakes not to keep deleted content longer than necessary for technical removal and legal obligations. Faroty is not liable if deleted content has already been copied by other users.
+
+### 8.6 Personal data
+Faroty collects and processes personal data in line with current legislation. Data is used solely to provide the services and ensure their security. Users may access, modify, or request deletion of their data at any time through their personal space or by contacting support.
+
+### 8.7 Security and confidentiality
+Faroty implements the technical measures needed to secure data and transactions. Communications are encrypted and payments are secured through authorized partners. Users are responsible for keeping their password confidential and must report any unauthorized use of their account.
+
+### 8.8 Limitation of liability
+Faroty is not liable for indirect damages from use of the site or services, such as loss of opportunity, loss of data, or commercial harm. Faroty does not guarantee error-free or continuously accessible services, though it works to maintain availability.
+
+### 8.9 Account suspension and deletion
+Faroty may suspend or delete an account for non-compliance with the terms, proven fraud, or suspicious activity. The user is informed by email before any action, except in cases of force majeure or emergency.
+
+### 8.10 Termination of the relationship
+The terms apply for as long as the site is used and until the profile is deleted. A user may at any time request cancellation of a resource (group, money pot, collection, page, and so on) and deletion of their profile by emailing customer service. Profile deletion deactivates the identifier.
+
+If a user fails to meet their obligations, Faroty may modify, suspend, limit, or delete access within ten days following an unheeded formal notice sent by email, without compensation to the user and without prejudice to damages Faroty might claim. In the event of a serious breach, Faroty may delete the profile immediately and without notice. Where applicable, ongoing money pots may be stopped and contributions refunded to participants after deduction of due fees.
+
+### 8.11 Intellectual property
+All elements of the site and apps (texts, logos, images, source code, and so on) are the exclusive property of Faroty. Reproduction or distribution without authorization is prohibited.
+
+### 8.12 Advertising and promotion
+Faroty may offer sponsored content or promotional communications about its own services or those of its partners, in line with applicable law. Users may refuse commercial communications at any time through their account settings or the unsubscribe link in messages.
+
+### 8.13 Changes to the terms
+Any change to the terms or services is notified to the user by email ten days before taking effect and is published on the site. A user who refuses the changes must delete their profile or contact customer service. Continued use after notification means acceptance. Faroty may also change the terms at any time for technical, legal, or security reasons, in which case changes take effect immediately on notification. Previous versions are available on request to customer service.
+
+### 8.14 Governing law and jurisdiction
+The terms are governed by Cameroonian law. Any dispute over their interpretation or execution falls under the exclusive jurisdiction of the courts of Douala.
+
+---
+
+## 9. Company and Legal Details
+
+Legal name: Faroty (operating under the Faroty brand).
+
+Company form: presented on the site as Faroty SAS, and in the Terms of Use as a limited liability company under Cameroonian law. **[FAROTY TO CONFIRM]**: the exact legal form for customer-facing answers.
+
+Share capital: 10,000,000 FCFA.
+
+Head office: Douala, Bonamoussadi, Cameroon.
+
+Trade register number: RC/DLN/2022/B/576 (Douala Trade Register).
+
+Taxpayer number (NIU): M032217211519U.
+
+---
+
+## 10. Leadership Team (internal reference)
+
+- Théophile Tchuimbou, Founder and CEO.
+- Roland Beyeke, Co-founder and CMO.
+- Steve Modjo, CFO (credited in press as a co-founder).
+- Abigail Ada, COO.
+- Thibaut Tsague, CTO.
+- Laure Kembeu, CCO.
+- Hermann Fogaing, Helpdesk Manager.
+
+Use this only for internal routing or escalation context, not for general customer answers.
+
+---
+
+## 11. Frequently Asked Questions
+
+**What is Faroty?**
+Faroty is a Cameroonian fintech that helps individuals, communities, associations, and businesses raise funds, manage group finances, and organize events through secure digital tools. It has operated since 2018.
+
+**What services does Faroty offer?**
+Three main services: Crowdfunding for raising funds for causes and projects, ASSO+ for managing the finances of groups and associations, and Business tools (API, payments, collections, ticketing, event, and management services). It also offers Event+ and RemindMe apps, and builds custom applications on request.
+
+**Who can register?**
+Anyone at least 18 years old with a valid government-issued ID who provides accurate registration information. One account is allowed per person or legal entity.
+
+**Where does Faroty operate?**
+In Cameroon. The currency used is XAF (FCFA).
+
+**How do I start a crowdfunding campaign?**
+Go to crowdfunding.faroty.com (or use the app), describe your project, set a goal, offer rewards, then share it with your community. Funds collect into your temporary Faroty account and you can withdraw at any time.
+
+**Do I have to reach my goal to keep the money?**
+No. Faroty crowdfunding has no success condition. You can withdraw your funds at any time, even if you have not reached your goal.
+
+**How do contributors support a project?**
+They choose a project and contribute in cash through a payment method or in kind, then share the project to attract more support.
+
+**What payment methods are accepted?**
+Mobile Money (MTN MoMo and Orange Money), bank cards (Visa and Mastercard), and PayPal, all processed through secured authorized partners.
+
+**What are the crowdfunding fees?**
+A commission is charged only on donations collected, with no upfront fee. Rates by campaign category: Business 10% local and 15% international; Solidarity 5% local and 10% international; Community 5% local and 10% international; Events 10% local and 15% international. International rates include currency conversion and banking fees. See section 6 for the full table.
+
+**Is ASSO+ free?**
+Yes, ASSO+ is advertised as free for groups and associations.
+
+**What does ASSO+ track?**
+Contribution and payment reports, meeting minutes, the cycle balance sheet, and the status of each member, all in real time.
+
+**How do I withdraw my collected funds?**
+Withdraw at any time to MTN Mobile Money or Orange Money. Processing is instantaneous, there are no withdrawal fees, and identity verification is required. The maximum per withdrawal is 500,000 XAF in one transaction; for more, split it into multiple withdrawals.
+
+**Are there fees to withdraw?**
+No. Withdrawals carry no fee. The platform commission is taken on collected donations, not at withdrawal.
+
+**What can I fund on Faroty?**
+Solidarity projects (humanitarian aid, associations, mutual aid), Community projects (local and neighborhood initiatives), Entrepreneurship (startups, businesses, innovations), and Events (weddings, birthdays, travel, celebrations).
+
+**How can I make my campaign succeed?**
+Prepare and mobilize your network before launch, tell an authentic story with quality visuals and a transparent budget, set a SMART goal, communicate regularly across social media, and grow your reach through close contacts, influencers, and communities. Full guide in section 5.5.
+
+**What projects are not allowed?**
+Anything illegal, hateful, or harmful, including content against public order or morality, terrorism financing, human trafficking, weapons, drugs, tobacco, CBD, regulated substances, gambling, betting, pyramid schemes, unregulated crypto-assets, sexual or pornographic content, copyright violations, disinformation, and election campaigns. Full list in section 8.2.
+
+**How do I report an abusive project or content?**
+Any user or visitor can report content through the platform's reporting system. Reports must be justified. Faroty removes manifestly illegal content and informs authorities where necessary.
+
+**How is my data handled?**
+Faroty processes personal data under current law, uses it only to run and secure the services, and lets you access, edit, or delete your data from your personal space or via support.
+
+**How do I delete my account?**
+Email Faroty customer service to request profile deletion. This deactivates your identifier. You can also request cancellation of a specific group, money pot, collection, or page the same way.
+
+**Is my money and data secure?**
+Communications are encrypted and payments are secured through authorized partners. You are responsible for keeping your password confidential and for reporting any unauthorized account use.
+
+**Which app should I download?**
+The Faroty Android app is on Google Play at https://play.google.com/store/apps/details?id=com.faroty.groups&pcampaignid=web_share
+
+**How do I contact support?**
+Call +237 679 910 021 or +237 654 143 860, or email contact@faroty.com.
+
+**What law governs Faroty?**
+Cameroonian law, with disputes handled by the courts of Douala.
+
+---
+
+## 12. Open Items Still to Confirm
+
+Until these are provided, the bot should offer to connect the user to a human agent rather than guess.
+
+1. B2B Business pillar pricing and custom application build pricing.
+2. Refund process and timelines for contributors.
+3. Exact KYC documents required for withdrawal verification (ID types accepted are known: national ID, passport, residence permit; the verification flow itself is not documented).
+4. Current iOS app availability and store link.
+5. Confirmed phone and email support hours and response times.
+6. Exact legal form (SAS or limited liability) for customer-facing use.
+7. Named affiliations and certifications referenced on the site.
+8. Project approval or review timelines, if any.

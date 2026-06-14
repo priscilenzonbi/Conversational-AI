@@ -1,2 +1,5 @@
 .env
 **/.env
+*.jsonl
+chat_logs.jsonl
+satisfaction_logs.jsonl
